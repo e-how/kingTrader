@@ -1,0 +1,1119 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68D64E9A1BCCCC6F00B391EB /* KTTradeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D64E991BCCCC6F00B391EB /* KTTradeState.m */; settings = {ASSET_TAGS = (); }; };
+		D420915E1B9E898600A27C9F /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = D420915D1B9E898600A27C9F /* UIColor+expanded.m */; };
+		D42091621B9EB2D900A27C9F /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091611B9EB2D900A27C9F /* DBManager.m */; };
+		D42091631B9EB99700A27C9F /* jiaoyishi.db in Resources */ = {isa = PBXBuildFile; fileRef = D420915F1B9EB23400A27C9F /* jiaoyishi.db */; };
+		D42091661B9EBA9400A27C9F /* myStocksDB.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091651B9EBA9400A27C9F /* myStocksDB.m */; };
+		D42091821B9EC2A300A27C9F /* AreaChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091691B9EC2A300A27C9F /* AreaChartModel.m */; };
+		D42091831B9EC2A300A27C9F /* CandleChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D420916B1B9EC2A300A27C9F /* CandleChartModel.m */; };
+		D42091841B9EC2A300A27C9F /* Chart.m in Sources */ = {isa = PBXBuildFile; fileRef = D420916D1B9EC2A300A27C9F /* Chart.m */; };
+		D42091851B9EC2A300A27C9F /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D420916F1B9EC2A300A27C9F /* ChartModel.m */; };
+		D42091861B9EC2A300A27C9F /* ColumnChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091711B9EC2A300A27C9F /* ColumnChartModel.m */; };
+		D42091871B9EC2A300A27C9F /* indicators.json in Resources */ = {isa = PBXBuildFile; fileRef = D42091721B9EC2A300A27C9F /* indicators.json */; };
+		D42091881B9EC2A300A27C9F /* LineChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091741B9EC2A300A27C9F /* LineChartModel.m */; };
+		D420918A1B9EC2A300A27C9F /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091781B9EC2A300A27C9F /* Section.m */; };
+		D420918B1B9EC2A300A27C9F /* securities.json in Resources */ = {isa = PBXBuildFile; fileRef = D42091791B9EC2A300A27C9F /* securities.json */; };
+		D420918C1B9EC2A300A27C9F /* TimeChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D420917B1B9EC2A300A27C9F /* TimeChartModel.m */; };
+		D420918D1B9EC2A300A27C9F /* VolChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D420917D1B9EC2A300A27C9F /* VolChartModel.m */; };
+		D420918E1B9EC2A300A27C9F /* XAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = D420917F1B9EC2A300A27C9F /* XAxis.m */; };
+		D420918F1B9EC2A300A27C9F /* YAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091811B9EC2A300A27C9F /* YAxis.m */; };
+		D42091921B9EC40900A27C9F /* NSNull+LTCast.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091911B9EC40900A27C9F /* NSNull+LTCast.m */; };
+		D42091951B9EC48200A27C9F /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091941B9EC48200A27C9F /* UIView+Shadow.m */; };
+		D42091991B9EC5FB00A27C9F /* LTTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091981B9EC5FB00A27C9F /* LTTimeLineView.m */; };
+		D420919C1B9EC6A100A27C9F /* ZHHControll.m in Sources */ = {isa = PBXBuildFile; fileRef = D420919B1B9EC6A100A27C9F /* ZHHControll.m */; };
+		D420919F1B9ECC6F00A27C9F /* LTHistoryLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D420919E1B9ECC6F00A27C9F /* LTHistoryLineView.m */; };
+		D42091A51B9ED7FC00A27C9F /* KTStockDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091A41B9ED7FC00A27C9F /* KTStockDetailViewController.m */; };
+		D42091AB1B9EE71300A27C9F /* KTScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091AA1B9EE71300A27C9F /* KTScrollViewController.m */; };
+		D42091AE1B9FE30500A27C9F /* DMLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091AD1B9FE30500A27C9F /* DMLazyScrollView.m */; };
+		D42091B11B9FFDCE00A27C9F /* KTUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091B01B9FFDCE00A27C9F /* KTUserInfo.m */; };
+		D42091B41BA01EC900A27C9F /* KTSettingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091B31BA01EC900A27C9F /* KTSettingInfo.m */; };
+		D423CF941BA682E8001F16DD /* KTExpandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D423CF931BA682E8001F16DD /* KTExpandButton.m */; };
+		D423CFA41BA81506001F16DD /* KTRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D423CFA31BA81506001F16DD /* KTRefresh.m */; };
+		D4AC611B1BABBBF7003CADBA /* KTFullChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC611A1BABBBF7003CADBA /* KTFullChartViewController.m */; };
+		D4B6374C1BA14B3900DBC5B9 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637471BA14B3900DBC5B9 /* RECommonFunctions.m */; };
+		D4B6374D1BA14B3900DBC5B9 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637491BA14B3900DBC5B9 /* RESideMenu.m */; };
+		D4B6374E1BA14B3900DBC5B9 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6374B1BA14B3900DBC5B9 /* UIViewController+RESideMenu.m */; };
+		D4B637511BA14E5900DBC5B9 /* KTLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637501BA14E5900DBC5B9 /* KTLeftViewController.m */; };
+		D4B637541BA1539700DBC5B9 /* KTDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637531BA1539700DBC5B9 /* KTDataCache.m */; };
+		D4B637571BA1557500DBC5B9 /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637561BA1557500DBC5B9 /* NSString+Hashing.m */; };
+		D4B6375B1BA1697800DBC5B9 /* KTSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6375A1BA1697800DBC5B9 /* KTSearchViewController.m */; };
+		D4B637701BA1712C00DBC5B9 /* arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B6375E1BA1712C00DBC5B9 /* arrow_down.png */; };
+		D4B637711BA1712C00DBC5B9 /* arrow_down1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B6375F1BA1712C00DBC5B9 /* arrow_down1.png */; };
+		D4B637721BA1712C00DBC5B9 /* arrow_down1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B637601BA1712C00DBC5B9 /* arrow_down1@2x.png */; };
+		D4B637731BA1712C00DBC5B9 /* arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B637611BA1712C00DBC5B9 /* arrow_down@2x.png */; };
+		D4B637741BA1712C00DBC5B9 /* SICellSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637631BA1712C00DBC5B9 /* SICellSelection.m */; };
+		D4B637751BA1712C00DBC5B9 /* SIMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637651BA1712C00DBC5B9 /* SIMenuButton.m */; };
+		D4B637761BA1712C00DBC5B9 /* SIMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637671BA1712C00DBC5B9 /* SIMenuCell.m */; };
+		D4B637771BA1712C00DBC5B9 /* SIMenuConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637691BA1712C00DBC5B9 /* SIMenuConfiguration.m */; };
+		D4B637781BA1712C00DBC5B9 /* SIMenuTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6376B1BA1712C00DBC5B9 /* SIMenuTable.m */; };
+		D4B637791BA1712C00DBC5B9 /* SINavigationMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6376D1BA1712C00DBC5B9 /* SINavigationMenuView.m */; };
+		D4B6377A1BA1712C00DBC5B9 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6376F1BA1712C00DBC5B9 /* UIColor+Extension.m */; };
+		D4D279F5B99FB733E8851B4C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5135D76F1A0FC0FC04558829 /* libPods.a */; };
+		D4ED63741B969152003223FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63731B969152003223FE /* main.m */; };
+		D4ED63771B969152003223FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63761B969152003223FE /* AppDelegate.m */; };
+		D4ED637F1B969152003223FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4ED637E1B969152003223FE /* Images.xcassets */; };
+		D4ED638E1B969152003223FE /* kingTraderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED638D1B969152003223FE /* kingTraderTests.m */; };
+		D4ED63A81B96A80F003223FE /* KTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63A71B96A80F003223FE /* KTRootViewController.m */; };
+		D4ED63AB1B96A94C003223FE /* KTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63AA1B96A94C003223FE /* KTTabBarController.m */; };
+		D4ED63AE1B96AA9B003223FE /* KTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63AD1B96AA9B003223FE /* KTNavigationController.m */; };
+		D4ED63B51B96B07D003223FE /* KTMyStocksController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63B41B96B07D003223FE /* KTMyStocksController.m */; };
+		D4ED63C71B96B225003223FE /* KTBlocksController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63C61B96B225003223FE /* KTBlocksController.m */; };
+		D4ED63CA1B96B23C003223FE /* KTSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63C91B96B23C003223FE /* KTSettingController.m */; };
+		D4ED63CD1B96B254003223FE /* KTMarketController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63CC1B96B254003223FE /* KTMarketController.m */; };
+		D4ED63D31B96C4CC003223FE /* KTNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63D21B96C4CC003223FE /* KTNetManager.m */; };
+		D4ED63D81B96D24F003223FE /* StockType.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63D71B96D24F003223FE /* StockType.m */; };
+		D4ED63DB1B96E86A003223FE /* KTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63DA1B96E86A003223FE /* KTTabBar.m */; };
+		D4ED63DE1B96F823003223FE /* KTTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63DD1B96F823003223FE /* KTTabBarButton.m */; };
+		D4FD69D61BAA807A00FB5E4E /* KTNetCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD69D51BAA807A00FB5E4E /* KTNetCheck.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4ED63881B969152003223FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4ED63661B969152003223FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4ED636D1B969152003223FE;
+			remoteInfo = kingTrader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19E01AC52BEA4B30FFAE59D0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5135D76F1A0FC0FC04558829 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D64E981BCCCC6F00B391EB /* KTTradeState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTradeState.h; sourceTree = "<group>"; };
+		68D64E991BCCCC6F00B391EB /* KTTradeState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTradeState.m; sourceTree = "<group>"; };
+		B23B06B526B211C674183860 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D420915C1B9E898600A27C9F /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		D420915D1B9E898600A27C9F /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		D420915F1B9EB23400A27C9F /* jiaoyishi.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = jiaoyishi.db; sourceTree = "<group>"; };
+		D42091601B9EB2D900A27C9F /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = kingTrader/Common/DBManager.h; sourceTree = SOURCE_ROOT; };
+		D42091611B9EB2D900A27C9F /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = kingTrader/Common/DBManager.m; sourceTree = SOURCE_ROOT; };
+		D42091641B9EBA9400A27C9F /* myStocksDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myStocksDB.h; path = kingTrader/Common/myStocksDB.h; sourceTree = SOURCE_ROOT; };
+		D42091651B9EBA9400A27C9F /* myStocksDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myStocksDB.m; path = kingTrader/Common/myStocksDB.m; sourceTree = SOURCE_ROOT; };
+		D42091681B9EC2A300A27C9F /* AreaChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaChartModel.h; sourceTree = "<group>"; };
+		D42091691B9EC2A300A27C9F /* AreaChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaChartModel.m; sourceTree = "<group>"; };
+		D420916A1B9EC2A300A27C9F /* CandleChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandleChartModel.h; sourceTree = "<group>"; };
+		D420916B1B9EC2A300A27C9F /* CandleChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandleChartModel.m; sourceTree = "<group>"; };
+		D420916C1B9EC2A300A27C9F /* Chart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart.h; sourceTree = "<group>"; };
+		D420916D1B9EC2A300A27C9F /* Chart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chart.m; sourceTree = "<group>"; };
+		D420916E1B9EC2A300A27C9F /* ChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartModel.h; sourceTree = "<group>"; };
+		D420916F1B9EC2A300A27C9F /* ChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
+		D42091701B9EC2A300A27C9F /* ColumnChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnChartModel.h; sourceTree = "<group>"; };
+		D42091711B9EC2A300A27C9F /* ColumnChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnChartModel.m; sourceTree = "<group>"; };
+		D42091721B9EC2A300A27C9F /* indicators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = indicators.json; sourceTree = "<group>"; };
+		D42091731B9EC2A300A27C9F /* LineChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartModel.h; sourceTree = "<group>"; };
+		D42091741B9EC2A300A27C9F /* LineChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartModel.m; sourceTree = "<group>"; };
+		D42091771B9EC2A300A27C9F /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		D42091781B9EC2A300A27C9F /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		D42091791B9EC2A300A27C9F /* securities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = securities.json; sourceTree = "<group>"; };
+		D420917A1B9EC2A300A27C9F /* TimeChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeChartModel.h; sourceTree = "<group>"; };
+		D420917B1B9EC2A300A27C9F /* TimeChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeChartModel.m; sourceTree = "<group>"; };
+		D420917C1B9EC2A300A27C9F /* VolChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolChartModel.h; sourceTree = "<group>"; };
+		D420917D1B9EC2A300A27C9F /* VolChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolChartModel.m; sourceTree = "<group>"; };
+		D420917E1B9EC2A300A27C9F /* XAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAxis.h; sourceTree = "<group>"; };
+		D420917F1B9EC2A300A27C9F /* XAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAxis.m; sourceTree = "<group>"; };
+		D42091801B9EC2A300A27C9F /* YAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAxis.h; sourceTree = "<group>"; };
+		D42091811B9EC2A300A27C9F /* YAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAxis.m; sourceTree = "<group>"; };
+		D42091901B9EC40900A27C9F /* NSNull+LTCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+LTCast.h"; sourceTree = "<group>"; };
+		D42091911B9EC40900A27C9F /* NSNull+LTCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+LTCast.m"; sourceTree = "<group>"; };
+		D42091931B9EC48200A27C9F /* UIView+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shadow.h"; sourceTree = "<group>"; };
+		D42091941B9EC48200A27C9F /* UIView+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shadow.m"; sourceTree = "<group>"; };
+		D42091971B9EC5FB00A27C9F /* LTTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTimeLineView.h; sourceTree = "<group>"; };
+		D42091981B9EC5FB00A27C9F /* LTTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTimeLineView.m; sourceTree = "<group>"; };
+		D420919A1B9EC6A100A27C9F /* ZHHControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHHControll.h; sourceTree = "<group>"; };
+		D420919B1B9EC6A100A27C9F /* ZHHControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHHControll.m; sourceTree = "<group>"; };
+		D420919D1B9ECC6F00A27C9F /* LTHistoryLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTHistoryLineView.h; sourceTree = "<group>"; };
+		D420919E1B9ECC6F00A27C9F /* LTHistoryLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTHistoryLineView.m; sourceTree = "<group>"; };
+		D42091A31B9ED7FC00A27C9F /* KTStockDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTStockDetailViewController.h; sourceTree = "<group>"; };
+		D42091A41B9ED7FC00A27C9F /* KTStockDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTStockDetailViewController.m; sourceTree = "<group>"; };
+		D42091A91B9EE71300A27C9F /* KTScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTScrollViewController.h; sourceTree = "<group>"; };
+		D42091AA1B9EE71300A27C9F /* KTScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTScrollViewController.m; sourceTree = "<group>"; };
+		D42091AC1B9FE30500A27C9F /* DMLazyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLazyScrollView.h; sourceTree = "<group>"; };
+		D42091AD1B9FE30500A27C9F /* DMLazyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLazyScrollView.m; sourceTree = "<group>"; };
+		D42091AF1B9FFDCE00A27C9F /* KTUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTUserInfo.h; path = kingTrader/Common/KTUserInfo.h; sourceTree = SOURCE_ROOT; };
+		D42091B01B9FFDCE00A27C9F /* KTUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTUserInfo.m; path = kingTrader/Common/KTUserInfo.m; sourceTree = SOURCE_ROOT; };
+		D42091B21BA01EC900A27C9F /* KTSettingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSettingInfo.h; path = kingTrader/Common/KTSettingInfo.h; sourceTree = SOURCE_ROOT; };
+		D42091B31BA01EC900A27C9F /* KTSettingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSettingInfo.m; path = kingTrader/Common/KTSettingInfo.m; sourceTree = SOURCE_ROOT; };
+		D423CF921BA682E8001F16DD /* KTExpandButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTExpandButton.h; path = kingTrader/Main/Views/KTExpandButton.h; sourceTree = SOURCE_ROOT; };
+		D423CF931BA682E8001F16DD /* KTExpandButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTExpandButton.m; path = kingTrader/Main/Views/KTExpandButton.m; sourceTree = SOURCE_ROOT; };
+		D423CFA21BA81506001F16DD /* KTRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTRefresh.h; sourceTree = "<group>"; };
+		D423CFA31BA81506001F16DD /* KTRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTRefresh.m; sourceTree = "<group>"; };
+		D4AC61191BABBBF7003CADBA /* KTFullChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTFullChartViewController.h; sourceTree = "<group>"; };
+		D4AC611A1BABBBF7003CADBA /* KTFullChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTFullChartViewController.m; sourceTree = "<group>"; };
+		D4B637461BA14B3900DBC5B9 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		D4B637471BA14B3900DBC5B9 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		D4B637481BA14B3900DBC5B9 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		D4B637491BA14B3900DBC5B9 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		D4B6374A1BA14B3900DBC5B9 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		D4B6374B1BA14B3900DBC5B9 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		D4B6374F1BA14E5900DBC5B9 /* KTLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTLeftViewController.h; path = kingTrader/Main/Controllers/KTLeftViewController.h; sourceTree = SOURCE_ROOT; };
+		D4B637501BA14E5900DBC5B9 /* KTLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTLeftViewController.m; path = kingTrader/Main/Controllers/KTLeftViewController.m; sourceTree = SOURCE_ROOT; };
+		D4B637521BA1539700DBC5B9 /* KTDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTDataCache.h; path = kingTrader/Common/KTDataCache.h; sourceTree = SOURCE_ROOT; };
+		D4B637531BA1539700DBC5B9 /* KTDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTDataCache.m; path = kingTrader/Common/KTDataCache.m; sourceTree = SOURCE_ROOT; };
+		D4B637551BA1557500DBC5B9 /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		D4B637561BA1557500DBC5B9 /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
+		D4B637591BA1697800DBC5B9 /* KTSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTSearchViewController.h; sourceTree = "<group>"; };
+		D4B6375A1BA1697800DBC5B9 /* KTSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTSearchViewController.m; sourceTree = "<group>"; };
+		D4B6375E1BA1712C00DBC5B9 /* arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_down.png; sourceTree = "<group>"; };
+		D4B6375F1BA1712C00DBC5B9 /* arrow_down1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_down1.png; sourceTree = "<group>"; };
+		D4B637601BA1712C00DBC5B9 /* arrow_down1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down1@2x.png"; sourceTree = "<group>"; };
+		D4B637611BA1712C00DBC5B9 /* arrow_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down@2x.png"; sourceTree = "<group>"; };
+		D4B637621BA1712C00DBC5B9 /* SICellSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SICellSelection.h; sourceTree = "<group>"; };
+		D4B637631BA1712C00DBC5B9 /* SICellSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SICellSelection.m; sourceTree = "<group>"; };
+		D4B637641BA1712C00DBC5B9 /* SIMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMenuButton.h; sourceTree = "<group>"; };
+		D4B637651BA1712C00DBC5B9 /* SIMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMenuButton.m; sourceTree = "<group>"; };
+		D4B637661BA1712C00DBC5B9 /* SIMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMenuCell.h; sourceTree = "<group>"; };
+		D4B637671BA1712C00DBC5B9 /* SIMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMenuCell.m; sourceTree = "<group>"; };
+		D4B637681BA1712C00DBC5B9 /* SIMenuConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMenuConfiguration.h; sourceTree = "<group>"; };
+		D4B637691BA1712C00DBC5B9 /* SIMenuConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMenuConfiguration.m; sourceTree = "<group>"; };
+		D4B6376A1BA1712C00DBC5B9 /* SIMenuTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMenuTable.h; sourceTree = "<group>"; };
+		D4B6376B1BA1712C00DBC5B9 /* SIMenuTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMenuTable.m; sourceTree = "<group>"; };
+		D4B6376C1BA1712C00DBC5B9 /* SINavigationMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINavigationMenuView.h; sourceTree = "<group>"; };
+		D4B6376D1BA1712C00DBC5B9 /* SINavigationMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINavigationMenuView.m; sourceTree = "<group>"; };
+		D4B6376E1BA1712C00DBC5B9 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		D4B6376F1BA1712C00DBC5B9 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		D4ED636E1B969152003223FE /* kingTrader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kingTrader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4ED63721B969152003223FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4ED63731B969152003223FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4ED63751B969152003223FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = kingTrader/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D4ED63761B969152003223FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = kingTrader/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D4ED637E1B969152003223FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		D4ED63871B969152003223FE /* kingTraderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kingTraderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4ED638C1B969152003223FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4ED638D1B969152003223FE /* kingTraderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kingTraderTests.m; sourceTree = "<group>"; };
+		D4ED63A61B96A80F003223FE /* KTRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTRootViewController.h; path = kingTrader/Main/Controllers/KTRootViewController.h; sourceTree = SOURCE_ROOT; };
+		D4ED63A71B96A80F003223FE /* KTRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTRootViewController.m; path = kingTrader/Main/Controllers/KTRootViewController.m; sourceTree = SOURCE_ROOT; };
+		D4ED63A91B96A94C003223FE /* KTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTTabBarController.h; path = kingTrader/Main/Controllers/KTTabBarController.h; sourceTree = SOURCE_ROOT; };
+		D4ED63AA1B96A94C003223FE /* KTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTTabBarController.m; path = kingTrader/Main/Controllers/KTTabBarController.m; sourceTree = SOURCE_ROOT; };
+		D4ED63AC1B96AA9B003223FE /* KTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTNavigationController.h; path = kingTrader/Main/Controllers/KTNavigationController.h; sourceTree = SOURCE_ROOT; };
+		D4ED63AD1B96AA9B003223FE /* KTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTNavigationController.m; path = kingTrader/Main/Controllers/KTNavigationController.m; sourceTree = SOURCE_ROOT; };
+		D4ED63B31B96B07D003223FE /* KTMyStocksController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTMyStocksController.h; sourceTree = "<group>"; };
+		D4ED63B41B96B07D003223FE /* KTMyStocksController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTMyStocksController.m; sourceTree = "<group>"; };
+		D4ED63C51B96B225003223FE /* KTBlocksController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTBlocksController.h; sourceTree = "<group>"; };
+		D4ED63C61B96B225003223FE /* KTBlocksController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTBlocksController.m; sourceTree = "<group>"; };
+		D4ED63C81B96B23C003223FE /* KTSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTSettingController.h; sourceTree = "<group>"; };
+		D4ED63C91B96B23C003223FE /* KTSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTSettingController.m; sourceTree = "<group>"; };
+		D4ED63CB1B96B254003223FE /* KTMarketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTMarketController.h; sourceTree = "<group>"; };
+		D4ED63CC1B96B254003223FE /* KTMarketController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTMarketController.m; sourceTree = "<group>"; };
+		D4ED63CF1B96BB80003223FE /* DefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineHeader.h; sourceTree = "<group>"; };
+		D4ED63D01B96BC00003223FE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D4ED63D11B96C4CC003223FE /* KTNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTNetManager.h; path = kingTrader/Common/KTNetManager.h; sourceTree = SOURCE_ROOT; };
+		D4ED63D21B96C4CC003223FE /* KTNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTNetManager.m; path = kingTrader/Common/KTNetManager.m; sourceTree = SOURCE_ROOT; };
+		D4ED63D41B96D0A2003223FE /* KTConfigHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTConfigHeader.h; sourceTree = "<group>"; };
+		D4ED63D61B96D24F003223FE /* StockType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockType.h; sourceTree = "<group>"; };
+		D4ED63D71B96D24F003223FE /* StockType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockType.m; sourceTree = "<group>"; };
+		D4ED63D91B96E86A003223FE /* KTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTTabBar.h; path = kingTrader/Main/Views/KTTabBar.h; sourceTree = SOURCE_ROOT; };
+		D4ED63DA1B96E86A003223FE /* KTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTTabBar.m; path = kingTrader/Main/Views/KTTabBar.m; sourceTree = SOURCE_ROOT; };
+		D4ED63DC1B96F823003223FE /* KTTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTTabBarButton.h; path = kingTrader/Main/Views/KTTabBarButton.h; sourceTree = SOURCE_ROOT; };
+		D4ED63DD1B96F823003223FE /* KTTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTTabBarButton.m; path = kingTrader/Main/Views/KTTabBarButton.m; sourceTree = SOURCE_ROOT; };
+		D4FD69D41BAA807A00FB5E4E /* KTNetCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTNetCheck.h; path = kingTrader/Common/KTNetCheck.h; sourceTree = SOURCE_ROOT; };
+		D4FD69D51BAA807A00FB5E4E /* KTNetCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTNetCheck.m; path = kingTrader/Common/KTNetCheck.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4ED636B1B969152003223FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D279F5B99FB733E8851B4C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ED63841B969152003223FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AE50045DC71BD54C6F7BE7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5135D76F1A0FC0FC04558829 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABF6B7BE45B9B2468205CF67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19E01AC52BEA4B30FFAE59D0 /* Pods.debug.xcconfig */,
+				B23B06B526B211C674183860 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D42091671B9EC2A300A27C9F /* chartee */ = {
+			isa = PBXGroup;
+			children = (
+				D42091681B9EC2A300A27C9F /* AreaChartModel.h */,
+				D42091691B9EC2A300A27C9F /* AreaChartModel.m */,
+				D420916A1B9EC2A300A27C9F /* CandleChartModel.h */,
+				D420916B1B9EC2A300A27C9F /* CandleChartModel.m */,
+				D420916C1B9EC2A300A27C9F /* Chart.h */,
+				D420916D1B9EC2A300A27C9F /* Chart.m */,
+				D420916E1B9EC2A300A27C9F /* ChartModel.h */,
+				D420916F1B9EC2A300A27C9F /* ChartModel.m */,
+				D42091701B9EC2A300A27C9F /* ColumnChartModel.h */,
+				D42091711B9EC2A300A27C9F /* ColumnChartModel.m */,
+				D42091721B9EC2A300A27C9F /* indicators.json */,
+				D42091731B9EC2A300A27C9F /* LineChartModel.h */,
+				D42091741B9EC2A300A27C9F /* LineChartModel.m */,
+				D42091771B9EC2A300A27C9F /* Section.h */,
+				D42091781B9EC2A300A27C9F /* Section.m */,
+				D42091791B9EC2A300A27C9F /* securities.json */,
+				D420917A1B9EC2A300A27C9F /* TimeChartModel.h */,
+				D420917B1B9EC2A300A27C9F /* TimeChartModel.m */,
+				D420917C1B9EC2A300A27C9F /* VolChartModel.h */,
+				D420917D1B9EC2A300A27C9F /* VolChartModel.m */,
+				D420917E1B9EC2A300A27C9F /* XAxis.h */,
+				D420917F1B9EC2A300A27C9F /* XAxis.m */,
+				D42091801B9EC2A300A27C9F /* YAxis.h */,
+				D42091811B9EC2A300A27C9F /* YAxis.m */,
+			);
+			path = chartee;
+			sourceTree = "<group>";
+		};
+		D42091961B9EC5D700A27C9F /* Klines */ = {
+			isa = PBXGroup;
+			children = (
+				D42091AC1B9FE30500A27C9F /* DMLazyScrollView.h */,
+				D42091AD1B9FE30500A27C9F /* DMLazyScrollView.m */,
+				D42091971B9EC5FB00A27C9F /* LTTimeLineView.h */,
+				D42091981B9EC5FB00A27C9F /* LTTimeLineView.m */,
+				D420919D1B9ECC6F00A27C9F /* LTHistoryLineView.h */,
+				D420919E1B9ECC6F00A27C9F /* LTHistoryLineView.m */,
+				D42091A31B9ED7FC00A27C9F /* KTStockDetailViewController.h */,
+				D42091A41B9ED7FC00A27C9F /* KTStockDetailViewController.m */,
+				D42091A91B9EE71300A27C9F /* KTScrollViewController.h */,
+				D42091AA1B9EE71300A27C9F /* KTScrollViewController.m */,
+				D4AC61191BABBBF7003CADBA /* KTFullChartViewController.h */,
+				D4AC611A1BABBBF7003CADBA /* KTFullChartViewController.m */,
+			);
+			path = Klines;
+			sourceTree = "<group>";
+		};
+		D4B637451BA14B3900DBC5B9 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D4B637461BA14B3900DBC5B9 /* RECommonFunctions.h */,
+				D4B637471BA14B3900DBC5B9 /* RECommonFunctions.m */,
+				D4B637481BA14B3900DBC5B9 /* RESideMenu.h */,
+				D4B637491BA14B3900DBC5B9 /* RESideMenu.m */,
+				D4B6374A1BA14B3900DBC5B9 /* UIViewController+RESideMenu.h */,
+				D4B6374B1BA14B3900DBC5B9 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		D4B637581BA1695100DBC5B9 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D4B637591BA1697800DBC5B9 /* KTSearchViewController.h */,
+				D4B6375A1BA1697800DBC5B9 /* KTSearchViewController.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D4B6375C1BA1712C00DBC5B9 /* NavigationMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				D4B6375D1BA1712C00DBC5B9 /* images */,
+				D4B637621BA1712C00DBC5B9 /* SICellSelection.h */,
+				D4B637631BA1712C00DBC5B9 /* SICellSelection.m */,
+				D4B637641BA1712C00DBC5B9 /* SIMenuButton.h */,
+				D4B637651BA1712C00DBC5B9 /* SIMenuButton.m */,
+				D4B637661BA1712C00DBC5B9 /* SIMenuCell.h */,
+				D4B637671BA1712C00DBC5B9 /* SIMenuCell.m */,
+				D4B637681BA1712C00DBC5B9 /* SIMenuConfiguration.h */,
+				D4B637691BA1712C00DBC5B9 /* SIMenuConfiguration.m */,
+				D4B6376A1BA1712C00DBC5B9 /* SIMenuTable.h */,
+				D4B6376B1BA1712C00DBC5B9 /* SIMenuTable.m */,
+				D4B6376C1BA1712C00DBC5B9 /* SINavigationMenuView.h */,
+				D4B6376D1BA1712C00DBC5B9 /* SINavigationMenuView.m */,
+				D4B6376E1BA1712C00DBC5B9 /* UIColor+Extension.h */,
+				D4B6376F1BA1712C00DBC5B9 /* UIColor+Extension.m */,
+			);
+			path = NavigationMenuView;
+			sourceTree = "<group>";
+		};
+		D4B6375D1BA1712C00DBC5B9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D4B6375E1BA1712C00DBC5B9 /* arrow_down.png */,
+				D4B6375F1BA1712C00DBC5B9 /* arrow_down1.png */,
+				D4B637601BA1712C00DBC5B9 /* arrow_down1@2x.png */,
+				D4B637611BA1712C00DBC5B9 /* arrow_down@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D4ED63651B969152003223FE = {
+			isa = PBXGroup;
+			children = (
+				D4ED63701B969152003223FE /* kingTrader */,
+				D4ED638A1B969152003223FE /* kingTraderTests */,
+				D4ED636F1B969152003223FE /* Products */,
+				ABF6B7BE45B9B2468205CF67 /* Pods */,
+				9AE50045DC71BD54C6F7BE7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4ED636F1B969152003223FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED636E1B969152003223FE /* kingTrader.app */,
+				D4ED63871B969152003223FE /* kingTraderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4ED63701B969152003223FE /* kingTrader */ = {
+			isa = PBXGroup;
+			children = (
+				D4B637581BA1695100DBC5B9 /* Search */,
+				D42091961B9EC5D700A27C9F /* Klines */,
+				D4ED63D51B96D22D003223FE /* Bussiness */,
+				D4ED63CE1B96BB43003223FE /* Config */,
+				D4ED63C21B96B1F2003223FE /* Other */,
+				D4ED63BE1B96B151003223FE /* Blocks */,
+				D4ED63BA1B96B0B1003223FE /* Setting */,
+				D4ED63B61B96B099003223FE /* Markets */,
+				D4ED63AF1B96B050003223FE /* MyStocks */,
+				D4ED63A51B96A76D003223FE /* Resources */,
+				D4ED63A41B96A71B003223FE /* AppDelegate */,
+				D4ED63A31B96A6F8003223FE /* Common */,
+				D4ED639F1B96A6D9003223FE /* Main */,
+				D4ED63711B969152003223FE /* Supporting Files */,
+			);
+			path = kingTrader;
+			sourceTree = "<group>";
+		};
+		D4ED63711B969152003223FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63721B969152003223FE /* Info.plist */,
+				D4ED63731B969152003223FE /* main.m */,
+				D4ED63D01B96BC00003223FE /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4ED638A1B969152003223FE /* kingTraderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED638D1B969152003223FE /* kingTraderTests.m */,
+				D4ED638B1B969152003223FE /* Supporting Files */,
+			);
+			path = kingTraderTests;
+			sourceTree = "<group>";
+		};
+		D4ED638B1B969152003223FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED638C1B969152003223FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4ED639F1B96A6D9003223FE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63A01B96A6D9003223FE /* Controllers */,
+				D4ED63A11B96A6D9003223FE /* Models */,
+				D4ED63A21B96A6D9003223FE /* Views */,
+			);
+			name = Main;
+			path = main;
+			sourceTree = "<group>";
+		};
+		D4ED63A01B96A6D9003223FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63A61B96A80F003223FE /* KTRootViewController.h */,
+				D4ED63A71B96A80F003223FE /* KTRootViewController.m */,
+				D4ED63A91B96A94C003223FE /* KTTabBarController.h */,
+				D4ED63AA1B96A94C003223FE /* KTTabBarController.m */,
+				D4ED63AC1B96AA9B003223FE /* KTNavigationController.h */,
+				D4ED63AD1B96AA9B003223FE /* KTNavigationController.m */,
+				D4B6374F1BA14E5900DBC5B9 /* KTLeftViewController.h */,
+				D4B637501BA14E5900DBC5B9 /* KTLeftViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D4ED63A11B96A6D9003223FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D4ED63A21B96A6D9003223FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63D91B96E86A003223FE /* KTTabBar.h */,
+				D4ED63DA1B96E86A003223FE /* KTTabBar.m */,
+				D4ED63DC1B96F823003223FE /* KTTabBarButton.h */,
+				D4ED63DD1B96F823003223FE /* KTTabBarButton.m */,
+				D423CF921BA682E8001F16DD /* KTExpandButton.h */,
+				D423CF931BA682E8001F16DD /* KTExpandButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4ED63A31B96A6F8003223FE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D420919A1B9EC6A100A27C9F /* ZHHControll.h */,
+				D420919B1B9EC6A100A27C9F /* ZHHControll.m */,
+				D4ED63D11B96C4CC003223FE /* KTNetManager.h */,
+				D4ED63D21B96C4CC003223FE /* KTNetManager.m */,
+				D4FD69D41BAA807A00FB5E4E /* KTNetCheck.h */,
+				D4FD69D51BAA807A00FB5E4E /* KTNetCheck.m */,
+				D42091601B9EB2D900A27C9F /* DBManager.h */,
+				D42091611B9EB2D900A27C9F /* DBManager.m */,
+				D42091641B9EBA9400A27C9F /* myStocksDB.h */,
+				D42091651B9EBA9400A27C9F /* myStocksDB.m */,
+				D42091AF1B9FFDCE00A27C9F /* KTUserInfo.h */,
+				D42091B01B9FFDCE00A27C9F /* KTUserInfo.m */,
+				D42091B21BA01EC900A27C9F /* KTSettingInfo.h */,
+				D42091B31BA01EC900A27C9F /* KTSettingInfo.m */,
+				D4B637521BA1539700DBC5B9 /* KTDataCache.h */,
+				D4B637531BA1539700DBC5B9 /* KTDataCache.m */,
+			);
+			name = Common;
+			path = common;
+			sourceTree = "<group>";
+		};
+		D4ED63A41B96A71B003223FE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63751B969152003223FE /* AppDelegate.h */,
+				D4ED63761B969152003223FE /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D4ED63A51B96A76D003223FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D420915F1B9EB23400A27C9F /* jiaoyishi.db */,
+				D4ED637E1B969152003223FE /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4ED63AF1B96B050003223FE /* MyStocks */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63B01B96B050003223FE /* Controllers */,
+				D4ED63B11B96B050003223FE /* Models */,
+				D4ED63B21B96B050003223FE /* Views */,
+			);
+			path = MyStocks;
+			sourceTree = "<group>";
+		};
+		D4ED63B01B96B050003223FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63B31B96B07D003223FE /* KTMyStocksController.h */,
+				D4ED63B41B96B07D003223FE /* KTMyStocksController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D4ED63B11B96B050003223FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D4ED63B21B96B050003223FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4ED63B61B96B099003223FE /* Markets */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63B71B96B099003223FE /* Controllers */,
+				D4ED63B81B96B099003223FE /* Models */,
+				D4ED63B91B96B099003223FE /* Views */,
+			);
+			path = Markets;
+			sourceTree = "<group>";
+		};
+		D4ED63B71B96B099003223FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63CB1B96B254003223FE /* KTMarketController.h */,
+				D4ED63CC1B96B254003223FE /* KTMarketController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D4ED63B81B96B099003223FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D4ED63B91B96B099003223FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4ED63BA1B96B0B1003223FE /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63BB1B96B0B1003223FE /* Controllers */,
+				D4ED63BC1B96B0B1003223FE /* Models */,
+				D4ED63BD1B96B0B1003223FE /* Views */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		D4ED63BB1B96B0B1003223FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63C81B96B23C003223FE /* KTSettingController.h */,
+				D4ED63C91B96B23C003223FE /* KTSettingController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D4ED63BC1B96B0B1003223FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D4ED63BD1B96B0B1003223FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4ED63BE1B96B151003223FE /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63BF1B96B151003223FE /* Controllers */,
+				D4ED63C01B96B151003223FE /* Models */,
+				D4ED63C11B96B151003223FE /* Views */,
+			);
+			path = Blocks;
+			sourceTree = "<group>";
+		};
+		D4ED63BF1B96B151003223FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63C51B96B225003223FE /* KTBlocksController.h */,
+				D4ED63C61B96B225003223FE /* KTBlocksController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D4ED63C01B96B151003223FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D4ED63C11B96B151003223FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4ED63C21B96B1F2003223FE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63C31B96B1F2003223FE /* categorys */,
+				D4ED63C41B96B1F2003223FE /* libs */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D4ED63C31B96B1F2003223FE /* categorys */ = {
+			isa = PBXGroup;
+			children = (
+				D420915C1B9E898600A27C9F /* UIColor+expanded.h */,
+				D420915D1B9E898600A27C9F /* UIColor+expanded.m */,
+				D42091901B9EC40900A27C9F /* NSNull+LTCast.h */,
+				D42091911B9EC40900A27C9F /* NSNull+LTCast.m */,
+				D42091931B9EC48200A27C9F /* UIView+Shadow.h */,
+				D42091941B9EC48200A27C9F /* UIView+Shadow.m */,
+				D4B637551BA1557500DBC5B9 /* NSString+Hashing.h */,
+				D4B637561BA1557500DBC5B9 /* NSString+Hashing.m */,
+			);
+			path = categorys;
+			sourceTree = "<group>";
+		};
+		D4ED63C41B96B1F2003223FE /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				D4B6375C1BA1712C00DBC5B9 /* NavigationMenuView */,
+				D4B637451BA14B3900DBC5B9 /* RESideMenu */,
+				D42091671B9EC2A300A27C9F /* chartee */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		D4ED63CE1B96BB43003223FE /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63CF1B96BB80003223FE /* DefineHeader.h */,
+				D4ED63D41B96D0A2003223FE /* KTConfigHeader.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D4ED63D51B96D22D003223FE /* Bussiness */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED63D61B96D24F003223FE /* StockType.h */,
+				D4ED63D71B96D24F003223FE /* StockType.m */,
+				D423CFA21BA81506001F16DD /* KTRefresh.h */,
+				D423CFA31BA81506001F16DD /* KTRefresh.m */,
+				68D64E981BCCCC6F00B391EB /* KTTradeState.h */,
+				68D64E991BCCCC6F00B391EB /* KTTradeState.m */,
+			);
+			path = Bussiness;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4ED636D1B969152003223FE /* kingTrader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4ED63911B969152003223FE /* Build configuration list for PBXNativeTarget "kingTrader" */;
+			buildPhases = (
+				717ABB62A4D0E5B58DF8D57C /* Check Pods Manifest.lock */,
+				D4ED636A1B969152003223FE /* Sources */,
+				D4ED636B1B969152003223FE /* Frameworks */,
+				D4ED636C1B969152003223FE /* Resources */,
+				421F324FAC6F9EA6D792C4D7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kingTrader;
+			productName = kingTrader;
+			productReference = D4ED636E1B969152003223FE /* kingTrader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4ED63861B969152003223FE /* kingTraderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4ED63941B969152003223FE /* Build configuration list for PBXNativeTarget "kingTraderTests" */;
+			buildPhases = (
+				D4ED63831B969152003223FE /* Sources */,
+				D4ED63841B969152003223FE /* Frameworks */,
+				D4ED63851B969152003223FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4ED63891B969152003223FE /* PBXTargetDependency */,
+			);
+			name = kingTraderTests;
+			productName = kingTraderTests;
+			productReference = D4ED63871B969152003223FE /* kingTraderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4ED63661B969152003223FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "张益豪";
+				TargetAttributes = {
+					D4ED636D1B969152003223FE = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3G7G325GTC;
+					};
+					D4ED63861B969152003223FE = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3G7G325GTC;
+						TestTargetID = D4ED636D1B969152003223FE;
+					};
+				};
+			};
+			buildConfigurationList = D4ED63691B969152003223FE /* Build configuration list for PBXProject "kingTrader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4ED63651B969152003223FE;
+			productRefGroup = D4ED636F1B969152003223FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4ED636D1B969152003223FE /* kingTrader */,
+				D4ED63861B969152003223FE /* kingTraderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4ED636C1B969152003223FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D420918B1B9EC2A300A27C9F /* securities.json in Resources */,
+				D4B637701BA1712C00DBC5B9 /* arrow_down.png in Resources */,
+				D4B637721BA1712C00DBC5B9 /* arrow_down1@2x.png in Resources */,
+				D42091631B9EB99700A27C9F /* jiaoyishi.db in Resources */,
+				D4B637731BA1712C00DBC5B9 /* arrow_down@2x.png in Resources */,
+				D4ED637F1B969152003223FE /* Images.xcassets in Resources */,
+				D4B637711BA1712C00DBC5B9 /* arrow_down1.png in Resources */,
+				D42091871B9EC2A300A27C9F /* indicators.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ED63851B969152003223FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		421F324FAC6F9EA6D792C4D7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		717ABB62A4D0E5B58DF8D57C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4ED636A1B969152003223FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B637781BA1712C00DBC5B9 /* SIMenuTable.m in Sources */,
+				D4B637751BA1712C00DBC5B9 /* SIMenuButton.m in Sources */,
+				D4AC611B1BABBBF7003CADBA /* KTFullChartViewController.m in Sources */,
+				D420918F1B9EC2A300A27C9F /* YAxis.m in Sources */,
+				D420918E1B9EC2A300A27C9F /* XAxis.m in Sources */,
+				D42091951B9EC48200A27C9F /* UIView+Shadow.m in Sources */,
+				D4B6374C1BA14B3900DBC5B9 /* RECommonFunctions.m in Sources */,
+				D420919F1B9ECC6F00A27C9F /* LTHistoryLineView.m in Sources */,
+				D4B6377A1BA1712C00DBC5B9 /* UIColor+Extension.m in Sources */,
+				D4ED63D31B96C4CC003223FE /* KTNetManager.m in Sources */,
+				D420918C1B9EC2A300A27C9F /* TimeChartModel.m in Sources */,
+				D42091921B9EC40900A27C9F /* NSNull+LTCast.m in Sources */,
+				D4FD69D61BAA807A00FB5E4E /* KTNetCheck.m in Sources */,
+				D4ED63771B969152003223FE /* AppDelegate.m in Sources */,
+				D4ED63CA1B96B23C003223FE /* KTSettingController.m in Sources */,
+				D4ED63B51B96B07D003223FE /* KTMyStocksController.m in Sources */,
+				D4ED63AE1B96AA9B003223FE /* KTNavigationController.m in Sources */,
+				D42091821B9EC2A300A27C9F /* AreaChartModel.m in Sources */,
+				D4B637571BA1557500DBC5B9 /* NSString+Hashing.m in Sources */,
+				D42091A51B9ED7FC00A27C9F /* KTStockDetailViewController.m in Sources */,
+				D42091851B9EC2A300A27C9F /* ChartModel.m in Sources */,
+				D4ED63DE1B96F823003223FE /* KTTabBarButton.m in Sources */,
+				D4ED63D81B96D24F003223FE /* StockType.m in Sources */,
+				D4B6374E1BA14B3900DBC5B9 /* UIViewController+RESideMenu.m in Sources */,
+				D423CF941BA682E8001F16DD /* KTExpandButton.m in Sources */,
+				D42091AB1B9EE71300A27C9F /* KTScrollViewController.m in Sources */,
+				D42091AE1B9FE30500A27C9F /* DMLazyScrollView.m in Sources */,
+				D4ED63741B969152003223FE /* main.m in Sources */,
+				D420919C1B9EC6A100A27C9F /* ZHHControll.m in Sources */,
+				D42091881B9EC2A300A27C9F /* LineChartModel.m in Sources */,
+				D4B637541BA1539700DBC5B9 /* KTDataCache.m in Sources */,
+				D42091861B9EC2A300A27C9F /* ColumnChartModel.m in Sources */,
+				D42091831B9EC2A300A27C9F /* CandleChartModel.m in Sources */,
+				D4B637741BA1712C00DBC5B9 /* SICellSelection.m in Sources */,
+				D4B6375B1BA1697800DBC5B9 /* KTSearchViewController.m in Sources */,
+				D423CFA41BA81506001F16DD /* KTRefresh.m in Sources */,
+				D4ED63CD1B96B254003223FE /* KTMarketController.m in Sources */,
+				D42091621B9EB2D900A27C9F /* DBManager.m in Sources */,
+				D4B637791BA1712C00DBC5B9 /* SINavigationMenuView.m in Sources */,
+				D42091661B9EBA9400A27C9F /* myStocksDB.m in Sources */,
+				D420918D1B9EC2A300A27C9F /* VolChartModel.m in Sources */,
+				D420918A1B9EC2A300A27C9F /* Section.m in Sources */,
+				D4ED63DB1B96E86A003223FE /* KTTabBar.m in Sources */,
+				D42091841B9EC2A300A27C9F /* Chart.m in Sources */,
+				D4B6374D1BA14B3900DBC5B9 /* RESideMenu.m in Sources */,
+				D42091B41BA01EC900A27C9F /* KTSettingInfo.m in Sources */,
+				D420915E1B9E898600A27C9F /* UIColor+expanded.m in Sources */,
+				D4ED63AB1B96A94C003223FE /* KTTabBarController.m in Sources */,
+				D4B637771BA1712C00DBC5B9 /* SIMenuConfiguration.m in Sources */,
+				68D64E9A1BCCCC6F00B391EB /* KTTradeState.m in Sources */,
+				D4B637761BA1712C00DBC5B9 /* SIMenuCell.m in Sources */,
+				D4ED63C71B96B225003223FE /* KTBlocksController.m in Sources */,
+				D42091B11B9FFDCE00A27C9F /* KTUserInfo.m in Sources */,
+				D4ED63A81B96A80F003223FE /* KTRootViewController.m in Sources */,
+				D42091991B9EC5FB00A27C9F /* LTTimeLineView.m in Sources */,
+				D4B637511BA14E5900DBC5B9 /* KTLeftViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ED63831B969152003223FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ED638E1B969152003223FE /* kingTraderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4ED63891B969152003223FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4ED636D1B969152003223FE /* kingTrader */;
+			targetProxy = D4ED63881B969152003223FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4ED638F1B969152003223FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/kingTrader/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "bdf729c7-6378-48c5-9796-53b5eecd31a4";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4ED63901B969152003223FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/kingTrader/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "bdf729c7-6378-48c5-9796-53b5eecd31a4";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4ED63921B969152003223FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E01AC52BEA4B30FFAE59D0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				INFOPLIST_FILE = kingTrader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D4ED63931B969152003223FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23B06B526B211C674183860 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				INFOPLIST_FILE = kingTrader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D4ED63951B969152003223FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = kingTraderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kingTrader.app/kingTrader";
+			};
+			name = Debug;
+		};
+		D4ED63961B969152003223FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = kingTraderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kingTrader.app/kingTrader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4ED63691B969152003223FE /* Build configuration list for PBXProject "kingTrader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4ED638F1B969152003223FE /* Debug */,
+				D4ED63901B969152003223FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4ED63911B969152003223FE /* Build configuration list for PBXNativeTarget "kingTrader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4ED63921B969152003223FE /* Debug */,
+				D4ED63931B969152003223FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4ED63941B969152003223FE /* Build configuration list for PBXNativeTarget "kingTraderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4ED63951B969152003223FE /* Debug */,
+				D4ED63961B969152003223FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4ED63661B969152003223FE /* Project object */;
+}
