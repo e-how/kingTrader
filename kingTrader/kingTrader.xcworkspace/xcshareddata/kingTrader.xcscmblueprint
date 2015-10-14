@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C8804DAEA44032A38F94A4804E7237829DF77FED",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D21B22A55948CE1BA2AD26A6B04E932D5048C9E1" : 0,
+    "C8804DAEA44032A38F94A4804E7237829DF77FED" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5BC25F22-26DE-47A1-823E-2102394EF277",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D21B22A55948CE1BA2AD26A6B04E932D5048C9E1" : "ehow",
+    "C8804DAEA44032A38F94A4804E7237829DF77FED" : "kingTrader\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "kingTrader",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "kingTrader\/kingTrader.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/e-how\/kingTrader.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C8804DAEA44032A38F94A4804E7237829DF77FED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/e-how\/ehow.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D21B22A55948CE1BA2AD26A6B04E932D5048C9E1"
+    }
+  ]
+}
