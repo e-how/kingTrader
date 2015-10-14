@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		68D64E9A1BCCCC6F00B391EB /* KTTradeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D64E991BCCCC6F00B391EB /* KTTradeState.m */; settings = {ASSET_TAGS = (); }; };
+		68E2A4B91BCE40A8004ED002 /* KTConmonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E2A4B81BCE40A8004ED002 /* KTConmonModel.m */; settings = {ASSET_TAGS = (); }; };
+		68E2A4BC1BCE4431004ED002 /* KTUpingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E2A4BB1BCE4431004ED002 /* KTUpingModel.m */; settings = {ASSET_TAGS = (); }; };
 		D420915E1B9E898600A27C9F /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = D420915D1B9E898600A27C9F /* UIColor+expanded.m */; };
 		D42091621B9EB2D900A27C9F /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091611B9EB2D900A27C9F /* DBManager.m */; };
 		D42091631B9EB99700A27C9F /* jiaoyishi.db in Resources */ = {isa = PBXBuildFile; fileRef = D420915F1B9EB23400A27C9F /* jiaoyishi.db */; };
@@ -90,6 +92,10 @@
 		5135D76F1A0FC0FC04558829 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D64E981BCCCC6F00B391EB /* KTTradeState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTradeState.h; sourceTree = "<group>"; };
 		68D64E991BCCCC6F00B391EB /* KTTradeState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTradeState.m; sourceTree = "<group>"; };
+		68E2A4B71BCE40A8004ED002 /* KTConmonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTConmonModel.h; path = kingTrader/Main/Models/KTConmonModel.h; sourceTree = SOURCE_ROOT; };
+		68E2A4B81BCE40A8004ED002 /* KTConmonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTConmonModel.m; path = kingTrader/Main/Models/KTConmonModel.m; sourceTree = SOURCE_ROOT; };
+		68E2A4BA1BCE4431004ED002 /* KTUpingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUpingModel.h; sourceTree = "<group>"; };
+		68E2A4BB1BCE4431004ED002 /* KTUpingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTUpingModel.m; sourceTree = "<group>"; };
 		B23B06B526B211C674183860 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D420915C1B9E898600A27C9F /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
 		D420915D1B9E898600A27C9F /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
@@ -456,6 +462,8 @@
 		D4ED63A11B96A6D9003223FE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				68E2A4B71BCE40A8004ED002 /* KTConmonModel.h */,
+				68E2A4B81BCE40A8004ED002 /* KTConmonModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -570,6 +578,8 @@
 		D4ED63B81B96B099003223FE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				68E2A4BA1BCE4431004ED002 /* KTUpingModel.h */,
+				68E2A4BB1BCE4431004ED002 /* KTUpingModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -904,6 +914,7 @@
 				D420918D1B9EC2A300A27C9F /* VolChartModel.m in Sources */,
 				D420918A1B9EC2A300A27C9F /* Section.m in Sources */,
 				D4ED63DB1B96E86A003223FE /* KTTabBar.m in Sources */,
+				68E2A4B91BCE40A8004ED002 /* KTConmonModel.m in Sources */,
 				D42091841B9EC2A300A27C9F /* Chart.m in Sources */,
 				D4B6374D1BA14B3900DBC5B9 /* RESideMenu.m in Sources */,
 				D42091B41BA01EC900A27C9F /* KTSettingInfo.m in Sources */,
@@ -916,6 +927,7 @@
 				D42091B11B9FFDCE00A27C9F /* KTUserInfo.m in Sources */,
 				D4ED63A81B96A80F003223FE /* KTRootViewController.m in Sources */,
 				D42091991B9EC5FB00A27C9F /* LTTimeLineView.m in Sources */,
+				68E2A4BC1BCE4431004ED002 /* KTUpingModel.m in Sources */,
 				D4B637511BA14E5900DBC5B9 /* KTLeftViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

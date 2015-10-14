@@ -8,6 +8,7 @@ pod 'FMDB'
 pod 'Reachability'
 pod 'SVProgressHUD'
 pod 'MJExtension'
+pod 'JSONWebToken'
 
 
 
