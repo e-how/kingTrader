@@ -37,6 +37,7 @@
 		D42091B41BA01EC900A27C9F /* KTSettingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091B31BA01EC900A27C9F /* KTSettingInfo.m */; };
 		D423CF941BA682E8001F16DD /* KTExpandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D423CF931BA682E8001F16DD /* KTExpandButton.m */; };
 		D423CFA41BA81506001F16DD /* KTRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D423CFA31BA81506001F16DD /* KTRefresh.m */; };
+		D4865F751BCE25BF00D8C57B /* 1.m in Sources */ = {isa = PBXBuildFile; fileRef = D4865F741BCE25BF00D8C57B /* 1.m */; };
 		D4AC611B1BABBBF7003CADBA /* KTFullChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC611A1BABBBF7003CADBA /* KTFullChartViewController.m */; };
 		D4B6374C1BA14B3900DBC5B9 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637471BA14B3900DBC5B9 /* RECommonFunctions.m */; };
 		D4B6374D1BA14B3900DBC5B9 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637491BA14B3900DBC5B9 /* RESideMenu.m */; };
@@ -146,6 +147,8 @@
 		D423CF931BA682E8001F16DD /* KTExpandButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTExpandButton.m; path = kingTrader/Main/Views/KTExpandButton.m; sourceTree = SOURCE_ROOT; };
 		D423CFA21BA81506001F16DD /* KTRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTRefresh.h; sourceTree = "<group>"; };
 		D423CFA31BA81506001F16DD /* KTRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTRefresh.m; sourceTree = "<group>"; };
+		D4865F731BCE25BF00D8C57B /* 1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 1.h; sourceTree = "<group>"; };
+		D4865F741BCE25BF00D8C57B /* 1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 1.m; sourceTree = "<group>"; };
 		D4AC61191BABBBF7003CADBA /* KTFullChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTFullChartViewController.h; sourceTree = "<group>"; };
 		D4AC611A1BABBBF7003CADBA /* KTFullChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTFullChartViewController.m; sourceTree = "<group>"; };
 		D4B637461BA14B3900DBC5B9 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
@@ -322,6 +325,8 @@
 			children = (
 				D4B637591BA1697800DBC5B9 /* KTSearchViewController.h */,
 				D4B6375A1BA1697800DBC5B9 /* KTSearchViewController.m */,
+				D4865F731BCE25BF00D8C57B /* 1.h */,
+				D4865F741BCE25BF00D8C57B /* 1.m */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -857,6 +862,7 @@
 				D4ED63D31B96C4CC003223FE /* KTNetManager.m in Sources */,
 				D420918C1B9EC2A300A27C9F /* TimeChartModel.m in Sources */,
 				D42091921B9EC40900A27C9F /* NSNull+LTCast.m in Sources */,
+				D4865F751BCE25BF00D8C57B /* 1.m in Sources */,
 				D4FD69D61BAA807A00FB5E4E /* KTNetCheck.m in Sources */,
 				D4ED63771B969152003223FE /* AppDelegate.m in Sources */,
 				D4ED63CA1B96B23C003223FE /* KTSettingController.m in Sources */,
