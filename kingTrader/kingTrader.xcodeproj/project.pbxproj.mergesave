@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		68D64E9A1BCCCC6F00B391EB /* KTTradeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D64E991BCCCC6F00B391EB /* KTTradeState.m */; settings = {ASSET_TAGS = (); }; };
 		68E2A4B91BCE40A8004ED002 /* KTConmonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E2A4B81BCE40A8004ED002 /* KTConmonModel.m */; settings = {ASSET_TAGS = (); }; };
 		68E2A4BC1BCE4431004ED002 /* KTUpingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E2A4BB1BCE4431004ED002 /* KTUpingModel.m */; settings = {ASSET_TAGS = (); }; };
+=======
 		68D64E9A1BCCCC6F00B391EB /* KTTradeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D64E991BCCCC6F00B391EB /* KTTradeState.m */; };
+>>>>>>> 01c026dfa0e63cb0e4e3db5f9ec64c7a0cfeff45
 		D420915E1B9E898600A27C9F /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = D420915D1B9E898600A27C9F /* UIColor+expanded.m */; };
 		D42091621B9EB2D900A27C9F /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091611B9EB2D900A27C9F /* DBManager.m */; };
 		D42091631B9EB99700A27C9F /* jiaoyishi.db in Resources */ = {isa = PBXBuildFile; fileRef = D420915F1B9EB23400A27C9F /* jiaoyishi.db */; };
