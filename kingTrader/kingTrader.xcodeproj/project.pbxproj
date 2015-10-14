@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		68D64E9A1BCCCC6F00B391EB /* KTTradeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D64E991BCCCC6F00B391EB /* KTTradeState.m */; settings = {ASSET_TAGS = (); }; };
+		68D64E9A1BCCCC6F00B391EB /* KTTradeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D64E991BCCCC6F00B391EB /* KTTradeState.m */; };
 		D420915E1B9E898600A27C9F /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = D420915D1B9E898600A27C9F /* UIColor+expanded.m */; };
 		D42091621B9EB2D900A27C9F /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091611B9EB2D900A27C9F /* DBManager.m */; };
 		D42091631B9EB99700A27C9F /* jiaoyishi.db in Resources */ = {isa = PBXBuildFile; fileRef = D420915F1B9EB23400A27C9F /* jiaoyishi.db */; };
@@ -37,6 +37,7 @@
 		D42091B41BA01EC900A27C9F /* KTSettingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091B31BA01EC900A27C9F /* KTSettingInfo.m */; };
 		D423CF941BA682E8001F16DD /* KTExpandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D423CF931BA682E8001F16DD /* KTExpandButton.m */; };
 		D423CFA41BA81506001F16DD /* KTRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D423CFA31BA81506001F16DD /* KTRefresh.m */; };
+		D4865F6F1BCE221600D8C57B /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4865F6E1BCE221600D8C57B /* testViewController.m */; };
 		D4AC611B1BABBBF7003CADBA /* KTFullChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC611A1BABBBF7003CADBA /* KTFullChartViewController.m */; };
 		D4B6374C1BA14B3900DBC5B9 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637471BA14B3900DBC5B9 /* RECommonFunctions.m */; };
 		D4B6374D1BA14B3900DBC5B9 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B637491BA14B3900DBC5B9 /* RESideMenu.m */; };
@@ -146,6 +147,8 @@
 		D423CF931BA682E8001F16DD /* KTExpandButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTExpandButton.m; path = kingTrader/Main/Views/KTExpandButton.m; sourceTree = SOURCE_ROOT; };
 		D423CFA21BA81506001F16DD /* KTRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTRefresh.h; sourceTree = "<group>"; };
 		D423CFA31BA81506001F16DD /* KTRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTRefresh.m; sourceTree = "<group>"; };
+		D4865F6D1BCE221600D8C57B /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		D4865F6E1BCE221600D8C57B /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		D4AC61191BABBBF7003CADBA /* KTFullChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTFullChartViewController.h; sourceTree = "<group>"; };
 		D4AC611A1BABBBF7003CADBA /* KTFullChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTFullChartViewController.m; sourceTree = "<group>"; };
 		D4B637461BA14B3900DBC5B9 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
@@ -322,6 +325,8 @@
 			children = (
 				D4B637591BA1697800DBC5B9 /* KTSearchViewController.h */,
 				D4B6375A1BA1697800DBC5B9 /* KTSearchViewController.m */,
+				D4865F6D1BCE221600D8C57B /* testViewController.h */,
+				D4865F6E1BCE221600D8C57B /* testViewController.m */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -893,6 +898,7 @@
 				D42091B41BA01EC900A27C9F /* KTSettingInfo.m in Sources */,
 				D420915E1B9E898600A27C9F /* UIColor+expanded.m in Sources */,
 				D4ED63AB1B96A94C003223FE /* KTTabBarController.m in Sources */,
+				D4865F6F1BCE221600D8C57B /* testViewController.m in Sources */,
 				D4B637771BA1712C00DBC5B9 /* SIMenuConfiguration.m in Sources */,
 				68D64E9A1BCCCC6F00B391EB /* KTTradeState.m in Sources */,
 				D4B637761BA1712C00DBC5B9 /* SIMenuCell.m in Sources */,

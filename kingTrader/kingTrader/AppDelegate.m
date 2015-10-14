@@ -60,6 +60,7 @@
     return YES;
     
 }
+
 - (void)reloadCurrentPage{
     
         [[NSNotificationCenter defaultCenter] postNotificationName:@"reloadCurrentPage" object:nil];
