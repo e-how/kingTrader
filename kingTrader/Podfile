@@ -7,6 +7,7 @@ pod 'SDWebImage'
 pod 'FMDB'
 pod 'Reachability'
 pod 'SVProgressHUD'
+pod 'MJExtension'
 
 
 
