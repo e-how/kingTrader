@@ -4,7 +4,7 @@
 //
 //  Created by 张益豪 on 15/9/15.
 //  Copyright (c) 2015年 张益豪. All rights reserved.
-//
+//  与时间相关的类  处理刷新时间 当前时间戳等
 
 #import <Foundation/Foundation.h>
 
@@ -34,5 +34,12 @@
  */
 
 + (NSDate *)getCustomDateWithHour:(NSInteger)hour Minute:(NSInteger)minu;
+
+/**
+ *  获取当前时间戳
+ *
+ *  @return 时间戳
+ */
++ (NSNumber*)getExpTime;
 
 @end

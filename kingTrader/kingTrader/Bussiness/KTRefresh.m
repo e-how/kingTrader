@@ -78,6 +78,12 @@ static KTRefresh* sharedRefresh = nil;
     NSCalendar *resultCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     return [resultCalendar dateFromComponents:resultComps];
 }
-
++ (NSNumber*)getExpTime{
+    
+    NSDate* date = [NSDate date];
+    NSInteger expTime = (long)[date timeIntervalSince1970]+100;
+    NSNumber* timeNumber = [NSNumber numberWithInteger:expTime];
+    return timeNumber;
+}
 
 @end

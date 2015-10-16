@@ -27,21 +27,17 @@
 
     //tabbar 控制器
     KTTabBarController* ktTabBarController = [[KTTabBarController alloc] init];
+    
+    self.window.rootViewController = ktTabBarController;
+  
+    /** 侧滑菜单
     KTLeftViewController* leftVC = [[KTLeftViewController alloc] init];
-    
-    //侧滑菜单
+
     RESideMenu* sidemenuVC = [[RESideMenu alloc] initWithContentViewController:ktTabBarController leftMenuViewController:leftVC rightMenuViewController:nil];
-    sidemenuVC.backgroundImage = [UIImage imageNamed:@"Stars"];
-    sidemenuVC.menuPreferredStatusBarStyle = 1;
     sidemenuVC.delegate = self;
-    sidemenuVC.contentViewShadowColor = [UIColor blackColor];
-    sidemenuVC.contentViewShadowOffset = CGSizeMake(0, 0);
-    sidemenuVC.contentViewShadowOpacity = 0.6;
-    sidemenuVC.contentViewShadowRadius = 12;
-    sidemenuVC.contentViewShadowEnabled = YES;
-    sidemenuVC.panGestureEnabled = YES;
-    
+
     self.window.rootViewController = sidemenuVC;
+    */
     
     [self.window makeKeyAndVisible];
     
