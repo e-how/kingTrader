@@ -41,8 +41,9 @@
    
     NSString* seceretString = [NSString stringWithFormat:
                                @"Bearer %@",
-                               [[[JWTEncodeTests alloc]init] testEncodingJWT:
-                                [KTRefresh getExpTime]]];
+                               [[JWTEncodeTests new]
+                               testEncodingJWT:
+                               [KTRefresh getExpTime]]];
     
     AFHTTPRequestOperationManager *mgr = [AFHTTPRequestOperationManager manager];
     

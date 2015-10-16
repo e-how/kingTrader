@@ -12,10 +12,13 @@ import JWT
 
 class JWTEncodeTests : NSObject {
     func testEncodingJWT(str:AnyObject)->String {
-        
+        print("----",str["test"])
+//        let payload = ["name": "zhangyihao123","id":str,"exp":str] as Payload
+       
         let payload = ["name": "zhangyihao123","id":str,"exp":str] as Payload
-        
-        let jwt = JWT.encode(payload, algorithm: .HS256("weisd"))
+        let dic:Dictionary<String,String> = ["name":"123"]
+        print("payload=",dic);
+        let jwt = JWT.encode(dic, algorithm: .HS256("weisd"))
         
         print(jwt)
         return jwt
