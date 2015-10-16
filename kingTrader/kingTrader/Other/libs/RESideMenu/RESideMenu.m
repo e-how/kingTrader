@@ -108,9 +108,19 @@
 {
     self = [self init];
     if (self) {
+        
         _contentViewController = contentViewController;
         _leftMenuViewController = leftMenuViewController;
         _rightMenuViewController = rightMenuViewController;
+        
+        self.backgroundImage = [UIImage imageNamed:@"Stars"];
+        self.menuPreferredStatusBarStyle = 1;
+        self.contentViewShadowColor = [UIColor blackColor];
+        self.contentViewShadowOffset = CGSizeMake(0, 0);
+        self.contentViewShadowOpacity = 0.6;
+        self.contentViewShadowRadius = 12;
+        self.contentViewShadowEnabled = YES;
+        self.panGestureEnabled = YES;
     }
     return self;
 }

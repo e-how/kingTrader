@@ -11,6 +11,7 @@
 		68D64E9A1BCCCC6F00B391EB /* KTTradeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D64E991BCCCC6F00B391EB /* KTTradeState.m */; };
 		68E2A4B91BCE40A8004ED002 /* KTConmonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E2A4B81BCE40A8004ED002 /* KTConmonModel.m */; settings = {ASSET_TAGS = (); }; };
 		68E2A4BC1BCE4431004ED002 /* KTUpingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E2A4BB1BCE4431004ED002 /* KTUpingModel.m */; settings = {ASSET_TAGS = (); }; };
+		68E3F2A41BD0C1B9007C829E /* swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3F2A31BD0C1B9007C829E /* swift.swift */; settings = {ASSET_TAGS = (); }; };
 		D420915E1B9E898600A27C9F /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = D420915D1B9E898600A27C9F /* UIColor+expanded.m */; };
 		D42091621B9EB2D900A27C9F /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091611B9EB2D900A27C9F /* DBManager.m */; };
 		D42091631B9EB99700A27C9F /* jiaoyishi.db in Resources */ = {isa = PBXBuildFile; fileRef = D420915F1B9EB23400A27C9F /* jiaoyishi.db */; };
@@ -95,6 +96,8 @@
 		68E2A4B81BCE40A8004ED002 /* KTConmonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTConmonModel.m; path = kingTrader/Main/Models/KTConmonModel.m; sourceTree = SOURCE_ROOT; };
 		68E2A4BA1BCE4431004ED002 /* KTUpingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUpingModel.h; sourceTree = "<group>"; };
 		68E2A4BB1BCE4431004ED002 /* KTUpingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTUpingModel.m; sourceTree = "<group>"; };
+		68E3F2A21BD0C1B8007C829E /* kingTrader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kingTrader-Bridging-Header.h"; sourceTree = "<group>"; };
+		68E3F2A31BD0C1B9007C829E /* swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = swift.swift; path = kingTrader/Common/swift.swift; sourceTree = SOURCE_ROOT; };
 		B23B06B526B211C674183860 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D420915C1B9E898600A27C9F /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
 		D420915D1B9E898600A27C9F /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
@@ -500,6 +503,8 @@
 				D42091B31BA01EC900A27C9F /* KTSettingInfo.m */,
 				D4B637521BA1539700DBC5B9 /* KTDataCache.h */,
 				D4B637531BA1539700DBC5B9 /* KTDataCache.m */,
+				68E3F2A31BD0C1B9007C829E /* swift.swift */,
+				68E3F2A21BD0C1B8007C829E /* kingTrader-Bridging-Header.h */,
 			);
 			name = Common;
 			path = common;
@@ -760,6 +765,7 @@
 		D4ED63661B969152003223FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "张益豪";
 				TargetAttributes = {
@@ -897,6 +903,7 @@
 				D4B6374E1BA14B3900DBC5B9 /* UIViewController+RESideMenu.m in Sources */,
 				D423CF941BA682E8001F16DD /* KTExpandButton.m in Sources */,
 				D42091AB1B9EE71300A27C9F /* KTScrollViewController.m in Sources */,
+				68E3F2A41BD0C1B9007C829E /* swift.swift in Sources */,
 				D42091AE1B9FE30500A27C9F /* DMLazyScrollView.m in Sources */,
 				D4ED63741B969152003223FE /* main.m in Sources */,
 				D420919C1B9EC6A100A27C9F /* ZHHControll.m in Sources */,
@@ -1043,14 +1050,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				ENABLE_BITCODE = NO;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				INFOPLIST_FILE = kingTrader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "kingTrader/common/kingTrader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -1060,14 +1071,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				ENABLE_BITCODE = NO;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				INFOPLIST_FILE = kingTrader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "kingTrader/common/kingTrader-Bridging-Header.h";
 			};
 			name = Release;
 		};
