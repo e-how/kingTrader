@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		68D64E9A1BCCCC6F00B391EB /* KTTradeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D64E991BCCCC6F00B391EB /* KTTradeState.m */; settings = {ASSET_TAGS = (); }; };
+		0421091A9EA67DD5371556A8 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E848B6D17050409ACEDBE66B /* Pods.framework */; };
+		68D64E9A1BCCCC6F00B391EB /* KTTradeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D64E991BCCCC6F00B391EB /* KTTradeState.m */; };
 		68E2A4B91BCE40A8004ED002 /* KTConmonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E2A4B81BCE40A8004ED002 /* KTConmonModel.m */; settings = {ASSET_TAGS = (); }; };
 		68E2A4BC1BCE4431004ED002 /* KTUpingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E2A4BB1BCE4431004ED002 /* KTUpingModel.m */; settings = {ASSET_TAGS = (); }; };
-		68D64E9A1BCCCC6F00B391EB /* KTTradeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D64E991BCCCC6F00B391EB /* KTTradeState.m */; };
 		D420915E1B9E898600A27C9F /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = D420915D1B9E898600A27C9F /* UIColor+expanded.m */; };
 		D42091621B9EB2D900A27C9F /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D42091611B9EB2D900A27C9F /* DBManager.m */; };
 		D42091631B9EB99700A27C9F /* jiaoyishi.db in Resources */ = {isa = PBXBuildFile; fileRef = D420915F1B9EB23400A27C9F /* jiaoyishi.db */; };
@@ -59,7 +59,6 @@
 		D4B637781BA1712C00DBC5B9 /* SIMenuTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6376B1BA1712C00DBC5B9 /* SIMenuTable.m */; };
 		D4B637791BA1712C00DBC5B9 /* SINavigationMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6376D1BA1712C00DBC5B9 /* SINavigationMenuView.m */; };
 		D4B6377A1BA1712C00DBC5B9 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6376F1BA1712C00DBC5B9 /* UIColor+Extension.m */; };
-		D4D279F5B99FB733E8851B4C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5135D76F1A0FC0FC04558829 /* libPods.a */; };
 		D4ED63741B969152003223FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63731B969152003223FE /* main.m */; };
 		D4ED63771B969152003223FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ED63761B969152003223FE /* AppDelegate.m */; };
 		D4ED637F1B969152003223FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4ED637E1B969152003223FE /* Images.xcassets */; };
@@ -90,7 +89,6 @@
 
 /* Begin PBXFileReference section */
 		19E01AC52BEA4B30FFAE59D0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		5135D76F1A0FC0FC04558829 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D64E981BCCCC6F00B391EB /* KTTradeState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTradeState.h; sourceTree = "<group>"; };
 		68D64E991BCCCC6F00B391EB /* KTTradeState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTradeState.m; sourceTree = "<group>"; };
 		68E2A4B71BCE40A8004ED002 /* KTConmonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTConmonModel.h; path = kingTrader/Main/Models/KTConmonModel.h; sourceTree = SOURCE_ROOT; };
@@ -223,6 +221,7 @@
 		D4ED63DD1B96F823003223FE /* KTTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTTabBarButton.m; path = kingTrader/Main/Views/KTTabBarButton.m; sourceTree = SOURCE_ROOT; };
 		D4FD69D41BAA807A00FB5E4E /* KTNetCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTNetCheck.h; path = kingTrader/Common/KTNetCheck.h; sourceTree = SOURCE_ROOT; };
 		D4FD69D51BAA807A00FB5E4E /* KTNetCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTNetCheck.m; path = kingTrader/Common/KTNetCheck.m; sourceTree = SOURCE_ROOT; };
+		E848B6D17050409ACEDBE66B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,7 +229,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4D279F5B99FB733E8851B4C /* libPods.a in Frameworks */,
+				0421091A9EA67DD5371556A8 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +246,7 @@
 		9AE50045DC71BD54C6F7BE7F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5135D76F1A0FC0FC04558829 /* libPods.a */,
+				E848B6D17050409ACEDBE66B /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

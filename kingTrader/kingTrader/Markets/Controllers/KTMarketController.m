@@ -8,7 +8,7 @@
 
 #import "KTMarketController.h"
 #import "KTUpingModel.h"
-#import <MJExtension.h>
+#import "MJExtension.h"
 #import "KTScrollViewController.h"
 
 @interface KTMarketController ()

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Reachability.h>
+#import "Reachability.h"
 
 @interface KTNetCheck : NSObject
 

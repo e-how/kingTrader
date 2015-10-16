@@ -12,7 +12,7 @@
 #import "LTTimeLineView.h"
 #import "KTStockDetailViewController.h"
 #import "KTScrollViewController.h"
-#import <MJRefresh.h>
+#import "MJRefresh.h"
 #import "KTNavigationController.h"
 #import "KTSearchViewController.h"
 #import "SINavigationMenuView.h"
