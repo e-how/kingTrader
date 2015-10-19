@@ -12,7 +12,7 @@ import JWT
 
 class JWTEncodeTests : NSObject {
     func testEncodingJWT(str:AnyObject)->String {
-        print("----",str["test"])
+      //  print("----",str["test"])
 //        let payload = ["name": "zhangyihao123","id":str,"exp":str] as Payload
        
         let payload = ["name": "zhangyihao123","id":str,"exp":str] as Payload
