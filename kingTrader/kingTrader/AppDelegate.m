@@ -20,7 +20,7 @@
  *  创建根视图控制器
  */
 - (void)createRootViewController{
-    
+    KTLog(@"00000");
     // 状态栏显示白色 配合info.plist View controller-based status bar appearance NO
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
